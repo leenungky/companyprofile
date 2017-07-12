@@ -82,10 +82,12 @@
 <div class="col-md-3 contact-footer">
   <div class="footer-form">
    <h5>Contact Us</h5>
-   <input type="text" placeholder="Name">
-   <input type="text" placeholder="E-Mail">
-   <textarea placeholder="Message" rows="3"></textarea>
-   <button class="submit-bt">Send</button>
+   <form action="" method="post">
+     <input type="text" placeholder="Name" name="name">
+     <input type="text" placeholder="E-Mail" name="email">
+     <textarea placeholder="Message" rows="3" name="message"></textarea>
+     <input type="submit" class="submit-bt" value="Send">
+   </form>
  </div>
 </div>
 </div>

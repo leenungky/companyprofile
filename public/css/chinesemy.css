@@ -1,0 +1,375 @@
+/*=================*/
+    .back-red{
+        background: #fcecdd;
+    }
+
+    .back-white{
+        background: #FFF;
+    }
+
+    .title{
+        font-size: 32px;        
+        padding: 10px 0px;
+        color:#000;
+    }
+
+    .img-header{
+
+    }
+
+    .img-promo{
+        width: 48%;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .title-periode{
+        font-size: 21px;
+        color: #000;
+    }
+
+    .periode{
+        padding: 25px;
+    }
+
+    .box-item{
+        background: #FFF;
+        padding: 7%;        
+        margin: 10% 2%;
+        box-shadow: 0 0 10px 10px #f6d9cc;
+    }
+
+    .box-item img{
+        height: 241px;
+    }
+
+    .desc-content{
+        height: 51px;
+        padding: 13px 0px;
+    }
+
+    .btn-buy{
+        width: 33%;
+        float: right;
+        margin-top: -52px;
+        margin-right: -4px;
+    }
+
+    .end-item{
+        width: 41.66666667%;
+        margin: 0 auto;
+    }
+
+    .term{
+        padding: 10px;
+    }
+
+    .title-howto{
+        text-align: center;
+        font-size: 20px;
+        color: #000;
+        padding: 34px 0px;
+        font-weight: bold;
+    }
+
+    .btn-nearest{
+        padding: 20px 0px;
+    }
+
+/*=================*/
+.online-partner{
+	font-size: 30px;
+    font-weight: bold;
+    border: 1px solid #000;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    margin-top: 36px;
+}
+.thumb{
+    border: 1px solid #8c8c8c;    
+    border-radius: 9px;
+    overflow: hidden;
+    height: 274px;
+    cursor: pointer;
+}
+
+.thumb:hover{
+     border: 2px solid #8c8c8c;    
+}
+
+.img-thumb{
+    height: 144px;
+    width: 100%;
+}
+
+.title-thumb{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.thumb-child{
+    font-size: 11px;
+    padding: 15px 0px;
+    height: 100px;
+}
+
+.btn-beli{
+    background: #11bf66;
+    padding: 2px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;    
+}
+
+.howto{
+	background: #e4e4e4;
+}
+
+.top-pakai{
+	margin-top: 50px;
+}
+
+.howto-desc{
+	text-align: center;
+    padding: 20px 0px 50px 0;
+    font-size: 16px;
+}
+
+.howtowuse{
+	font-size: 27px;
+    font-weight: 900;
+    margin: 0 auto;
+    width: 34%;
+    padding: 22px 0px;
+}
+
+.aplikasi{
+	background: #e4e4e4;
+	margin-top: 30px;
+}
+
+.sub-aplikasi{
+	margin-top: 40px;
+}
+
+.aplikasi-note{
+	text-align: center;
+    padding: 20px 0;
+    font-size: 26px;
+    color: #000;
+    margin-top: 51px;
+    border-bottom: 1px solid #000;
+    width: 72%;
+    margin: 0 auto;
+}
+
+.aplikasi #price{
+	font-weight: 900;
+}
+
+.popbox-img img{
+	width: 50%;
+    float: right;
+    margin-right: -15px;
+    padding-bottom: 50px;
+}
+
+.popbox-play img{
+	width: 69%;
+    margin-top: 28px;
+    margin-left: -15px;
+}
+
+.img-download{
+	margin-top: 20px;
+}
+
+.syarat{
+	padding: 28px 0px;
+}
+
+.socmed img{
+    width: 75%;
+}
+
+.drop-filter{
+    margin: 30px 0px;
+}
+
+.socmed{
+    text-align: center;
+}
+
+
+.syarat-title{
+	font-size: 20px;    
+    margin: 0 auto;
+    width: 35%;
+    text-align: center;
+}
+
+.syarat-img{
+	padding-right: 11px;
+}
+
+.icon-contact-three img{
+	width: 12%;
+}
+
+.icon-contact-three{
+	font-size: 15px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+}
+
+.icon-contact{
+	font-size: 15px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+}
+
+.icon-contact img{
+	width: 16%;
+}
+
+.phpdebugbar-closed{
+	display: none;
+}
+
+.row-four{
+	padding: 0px 40px;
+}
+
+.icon-contact a, .icon-contact-three a{
+	color: #000;
+}
+
+.deliver-title{
+	text-align: center;
+    margin-top: 30px;
+    padding: 14px 0px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.deliver-desc{
+	text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.popbox-asia{
+    text-align: center;
+    background: #c1272d;    
+    margin: 31px 0px;
+    padding: 11px;
+    font-size: 20px;
+}
+
+.popbox-asia a{
+    color: #FFF;
+}
+
+
+.footer{
+    background: #fcecdd;
+    height: 104px;
+}
+
+.dropdown-toggle{
+	width: 100%;
+}
+
+.btn-group{
+	width: 100%;	
+}
+
+.choose-locker{
+	padding: 10px 0px;
+}
+
+.dropdown-menu li{
+	padding: 0px 10px;
+	cursor: pointer;
+}
+
+#map_wrapper {
+    height: 400px;
+}
+
+#map_canvas {
+	width: 84%;
+    height: 88%;
+    margin: 0 auto;
+}
+
+.cls-img-howto{
+    height: 200px;
+}
+
+   .line09{
+        line-height: 0.9;
+    }
+
+
+
+
+
+@media(max-width: 450px){
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+   
+
+   .title{
+    font-size: 16px;
+   }
+
+   .img-promo{
+    width: 62%;
+   }
+
+   .title-periode {
+        font-size: 12px;
+    }
+
+    .periode {
+        padding: 11px;
+    }
+
+    .end-item {
+        width: 100%;
+     
+    }
+
+    .drop-filter .btn-group{
+            margin: 10px 0px;
+    }
+
+    .btn-nearest {
+        padding: 0px 0px;
+    }
+
+    .socmed img {
+        width: 35%;
+        margin: 10px 0px;
+    }
+
+    .syarat {
+        padding: 7px 0px;
+    }
+   
+}
+
+@media(max-width: 375px){
+      .desc-content {
+        font-size: 10px;
+    }
+}

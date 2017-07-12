@@ -1,0 +1,376 @@
+.online-partner{
+	font-size: 30px;
+    font-weight: bold;
+    border: 1px solid #000;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    margin-top: 36px;
+}
+.thumb{
+    border: 1px solid #8c8c8c;    
+    border-radius: 9px;
+    overflow: hidden;
+    height: 274px;
+    cursor: pointer;
+}
+
+.thumb:hover{
+     border: 2px solid #8c8c8c;    
+}
+
+.img-thumb{
+    height: 144px;
+    width: 100%;
+}
+
+.title-thumb{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.thumb-child{
+    font-size: 11px;
+    padding: 15px 0px;
+    height: 100px;
+}
+
+.btn-beli{
+    background: #11bf66;
+    padding: 2px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;    
+}
+
+.howto{
+	background: #e4e4e4;
+}
+
+.top-pakai{
+	margin-top: 50px;
+}
+
+.howto-desc{
+	text-align: center;
+    padding: 20px 0px 50px 0;
+    font-size: 16px;
+}
+
+.howtowuse{
+	font-size: 27px;
+    font-weight: 900;
+    margin: 0 auto;
+    width: 34%;
+    padding: 22px 0px;
+}
+
+.aplikasi{
+	background: #e4e4e4;
+	margin-top: 30px;
+}
+
+.sub-aplikasi{
+	margin-top: 40px;
+}
+
+.aplikasi-note{
+	text-align: center;
+    padding: 20px 0;
+    font-size: 26px;
+    color: #000;
+    margin-top: 51px;
+    border-bottom: 1px solid #000;
+    width: 72%;
+    margin: 0 auto;
+}
+
+.aplikasi #price{
+	font-weight: 900;
+}
+
+.popbox-img img{
+	width: 50%;
+    float: right;
+    margin-right: -15px;
+    padding-bottom: 50px;
+}
+
+.popbox-play img{
+	width: 69%;
+    margin-top: 28px;
+    margin-left: -15px;
+}
+
+.img-download{
+	margin-top: 20px;
+}
+
+.syarat{
+	padding: 28px 0px;
+}
+
+
+.syarat-title{
+	font-size: 20px;
+    border: 1px solid #6b6b6b;
+    margin: 0 auto;
+    width: 35%;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 38px;
+}
+
+.syarat-img{
+	padding-right: 11px;
+}
+
+.icon-contact-three img{
+	width: 12%;
+}
+
+.icon-contact-three{
+	font-size: 15px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+}
+
+.icon-contact{
+	font-size: 15px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+}
+
+.icon-contact img{
+	width: 16%;
+}
+
+.phpdebugbar-closed{
+	display: none;
+}
+
+.row-four{
+	padding: 0px 40px;
+}
+
+.icon-contact a, .icon-contact-three a{
+	color: #000;
+}
+
+.deliver-title{
+	text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.deliver-desc{
+	text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer{
+	background: #000;
+    height: 60px;
+}
+
+.dropdown-toggle{
+	width: 100%;
+}
+
+.btn-group{
+	width: 100%;	
+}
+
+.choose-locker{
+	padding: 10px 0px;
+}
+
+.dropdown-menu li{
+	padding: 0px 10px;
+	cursor: pointer;
+}
+
+#map_wrapper {
+    height: 400px;
+}
+
+#map_canvas {
+	width: 84%;
+    height: 88%;
+    margin: 0 auto;
+}
+
+.cls-img-howto{
+    height: 200px;
+}
+
+   .line09{
+        line-height: 0.9;
+    }
+
+
+@media (min-width: 992px){
+	.thumbs{
+		width: 20%;
+	    float: left;	    
+	    padding: 18px;	
+	}
+
+}
+
+
+@media (min-width: 768px){
+    .thumbs{
+        width: 20%;
+        float: left;                
+    }
+
+    .thumbs {
+        padding: 8px 20px;
+    }
+
+     .title-thumb {
+        font-size: 12px;
+    }
+     
+
+    .col-xs-7{
+        padding-left: 0px;
+    }
+
+    .cls-img-howto {        
+        text-align: center;
+    }
+
+    .btn-group {     
+        padding: 6px 0px;
+    }
+
+    .btn-danger{
+        width: 100%;
+    }
+
+    .syarat-title {
+        font-size: 17px;
+        width: 66% ;
+    }
+
+    .howtowuse{
+        font-size: 19px;
+        width: 86%;
+        text-align: center;
+    }
+
+    .syarat-img img{
+        width: 10%;
+    }
+
+    .icon-contact-three {
+            padding: 10px 0px;
+    }
+
+    .syarat .icon-contact{
+        padding: 10px 0px;
+    }
+
+    .group-syarat-four{
+        margin-top: -60px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .cls-img-howto{
+        height: auto;
+    }
+    .title-thumb {
+       font-size: 12px;
+    }
+    
+    .group-thumbs{
+        padding: 0px;
+    }
+
+     .thumbs {
+        padding: 18px 6px;
+    }
+
+    
+    .thumb .col-md-12{
+        padding-left: 0px; 
+       padding-right: 0px; 
+    }
+}
+
+
+@media(max-width: 425px){
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+   
+
+    .syarat-title {
+        font-size: 17px;
+        width: 66% ;
+    }
+    .btn-group {     
+        padding: 6px 0px;
+    }
+
+    .btn-danger{
+        width: 100%;
+    }
+
+    .howtowuse{
+        font-size: 19px;
+        width: 86%;
+        text-align: center;
+    }
+
+    .cls-img-howto {
+        height: auto;        
+    }
+    
+
+    .thumb{
+        height: 246px;
+    }
+
+    .thumb-child {
+        height: 113px;
+    }
+
+    .thumb-child img{
+        max-height: 99px;
+    }
+
+ 
+    .online-partner {
+        font-size: 15px;
+        padding: 10px;
+        width: 60%;
+    }
+
+    .img-thumb {
+        height:100px;
+    }
+
+     .syarat-img img{
+        width: 10%;
+    }
+
+    .icon-contact-three {
+            padding: 10px 0px;
+    }
+
+    .group-syarat-four{
+        margin-top: -60px;
+    }
+
+   
+}

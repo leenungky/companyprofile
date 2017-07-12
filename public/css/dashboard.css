@@ -1,0 +1,126 @@
+.right-side{
+	background: #2f4050;
+  	height: 754px;
+  	padding-right: 0px;    
+  padding-left: 0px;
+}
+.right-side ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.right-side ul li{
+    color: #6e7c93;
+    background: #2f4050;    
+    cursor: pointer;
+    padding: 9px 9px;
+    width: 100%;    
+    border-top: 1px solid #394958;
+    font-size: 12px;
+}
+
+.right-side ul li:hover{
+    color: #FFF;
+    background: #293846;    
+}
+
+.right-side ul li.active{
+    color: #FFF;
+    background: #293846;    
+}
+
+.content-side{   
+    background: #f3f3f4;
+    padding-left: 0px; 
+    padding-right: 0px; 
+}
+
+.head-content{	
+  	height: 52px;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.dropdown-toggle span{
+    font-size: 12px;
+    color: #999c9e;
+}
+
+.user-img{
+  width: 20px;
+  margin-right: 11px;
+}
+
+.navbar-right{
+  padding: 10px;
+}
+
+.icon-side-menu{
+    float: right;
+    margin-right: 15px;
+}
+
+.icon-reload{
+    margin-right: 20px;
+}
+
+.icon-reload img{
+    width: 15px;
+    margin-top: -5px;
+}
+
+.title{
+    background: #FFF;
+    padding: 20px;
+}
+
+.title-first{
+    font-weight: bold;
+}
+
+.title-second{
+    font-size: 10px
+}
+
+.user-drop{
+    margin-left: 4px;
+    margin-top: 1px;
+}
+
+.table-row{
+    padding : 15px;
+}
+
+.table-title{
+    height: 42px;
+    background: #FFF;
+    border: 1px solid #dddddd;
+    border-bottom: 0px;
+}
+
+.table-content{
+    background: #FFF;
+    height: auto;
+    border: 1px solid #dddddd;
+    padding: 20px;
+}
+
+.table{
+    font-size:11px;
+}
+
+.toolbar-line a{
+    color: #66667d;
+}
+
+.toolbar-line a:hover{
+    color: #66667d;
+    border: 1px solid #dddddd;
+}

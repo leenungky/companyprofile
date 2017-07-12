@@ -1,0 +1,55 @@
+.forgot{
+	display:none;
+}
+
+form .col_full{
+	margin-bottom: 0px;
+}
+
+.sm-form-control {
+	border:1px solid #000;
+}
+
+.remind{
+	font-size: 9px;
+}
+
+.forgot-pass{
+	padding-right: 0px;
+}
+
+.forgot form .col_full{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.btn-change-pass{
+	margin:10px !important;
+}
+
+.close-notif{
+	float: right;
+  	margin: -14px;
+  	font-size: 10px;
+  	cursor: pointer;
+}
+
+.alert{
+	display: none;
+}
+
+#select2-city-container {
+	display: none !important;
+}
+
+.back-login{
+    cursor: pointer;
+    color:red;
+}
+
+#formLogin{
+	max-width: 300px;
+	margin-top: -15px;
+}
+
+

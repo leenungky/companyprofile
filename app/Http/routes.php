@@ -12,8 +12,9 @@
 |
 // */
 
-Route::get('/', ['as' => 'index', 'uses' => 'TrackingController@index']);
-Route::any('/tarif', ['as' => 'tarif', 'uses' => 'TrackingController@tarif']);
-Route::any('/get_tarif', ['as' => 'tarif', 'uses' => 'TrackingController@get_tarif']);
-Route::any('/contact', ['as' => 'contact', 'uses' => 'TrackingController@contact']);
-Route::any('/tracking', ['as' => 'tracking', 'uses' => 'TrackingController@tracking']);
+Route::get('/', ['as' => 'index', 'uses' => 'HomeController@index']);
+Route::get('/about_us', ['as' => 'about_us', 'uses' => 'HomeController@about_us']);
+Route::get('/product', ['as' => 'product', 'uses' => 'HomeController@product']);
+Route::get('/pricing', ['as' => 'pricing', 'uses' => 'HomeController@pricing']);
+Route::get('/contact', ['as' => 'contact', 'uses' => 'HomeController@contact']);
+Route::post('/create_contact', ['as' => 'contact', 'uses' => 'HomeController@create_contact']);

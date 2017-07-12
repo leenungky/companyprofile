@@ -1,46 +1,19 @@
-<head>
     <meta charset="utf-8">
-   
-    <meta property="og:url" content="<?php echo $_SERVER['SERVER_NAME']; ?>" />
-     <meta property="og:type" content="article" />
-               <meta property="og:title" content="Promo Ramadhan By PopBox" />
-                <meta property="og:description" content="Menyambut bulan Ramadhan. PopBox bagi-bagi kejutan! FREE ONGKIR sejabodetabek selama periode." />
-                <meta property="og:image" content="{{ URL::asset('img/ramadhan/banner.png')}}" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Nungky</title>
 
-    <title>PopBox</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="PopBox Asia Team" />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="{{ asset('img/favico.ico') }}">
-    <!-- Stylesheets
-    ============================================= -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="{{ elixir('css/bootstrap.css') }}" type="text/css" />    
-    <link rel="stylesheet" href="{{ elixir('css/style.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ elixir('css/dark.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ elixir('css/font-icons.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ elixir('css/animate.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ elixir('css/magnific-popup.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ elixir('css/responsive.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ elixir('css/flag-icon.min.css') }}">    
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/custom.css">    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/responsiveslides.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lt IE 9]>
-        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-    <![endif]-->
-
-     <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-72128831-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-
-</head>
-
-
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
